@@ -1,0 +1,10 @@
+public class SumOfNaturalNumbersFormula {
+    public static int sumOfNaturalNumbers(int n) {
+        return n * (n + 1) / 2;
+    }
+
+    public static void main(String[] args) {
+        int n = 10; // Change this to find the sum of a different number of natural numbers
+        System.out.println("The sum of the first " + n + " natural numbers is: " + sumOfNaturalNumbers(n));
+    }
+}
